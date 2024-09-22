@@ -1,6 +1,6 @@
 # Demo 1 - Install Prometheus as a Service
 
-we need to do some steps to to install `Prometheus`.
+we need to do some steps to install `Prometheus`.
 
 [Prometheus github](https://github.com/prometheus/prometheus)
 
@@ -20,6 +20,7 @@ sudo mkdir /var/lib/prometheus
 > 3. give the ownership to `Prometheus` to its library directory:
 ```
 sudo chown prometheus:prometheus /var/lib/prometheus
+sudo chown prometheus:prometheus /etc/prometheus
 ```
 > 4. download `Prometheus` instalation directory:
 
